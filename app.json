@@ -1,10 +1,11 @@
 {
   "expo": {
     "name": "qa-test-app",
-    "slug": "qa-test-app",
+    "slug": "fingo-qa-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/OALogo.png",
+    "owner": "fingo",
     "splash": {
       "image": "./assets/OALogo.png",
       "resizeMode": "contain",
@@ -15,13 +16,15 @@
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.gitaridev.qatestapp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/OALogo.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.gitaridev.qatestapp"
     },
     "web": {
       "favicon": "./assets/OALogo.png"
